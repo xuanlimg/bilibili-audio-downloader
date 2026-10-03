@@ -21,6 +21,14 @@ MP3、M4A、OPUS、FLAC 或 WAV 格式。
 - 历史窗口支持打开目录、复制链接和清空记录
 - 提供 PyInstaller 免安装版和 Inno Setup 安装程序
 
+## 下载
+
+GitHub Releases：
+
+https://github.com/xuanlimg/bilibili-audio-downloader/releases/latest
+
+- `BiliAudioDownloader-Setup-0.2.0.exe`：Windows 安装程序
+- `BiliAudioDownloader-portable.zip`：免安装便携版
 ## 系统要求
 
 - Windows 10/11
@@ -132,3 +140,4 @@ GitHub 仓库只提交源代码和构建配置，不提交以下内容：
 
 当前仓库未指定开源许可证。正式公开或允许他人再发布前，请先选择并添加合适的
 `LICENSE` 文件。
+
