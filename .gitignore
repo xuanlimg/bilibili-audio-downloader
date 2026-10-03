@@ -1,0 +1,35 @@
+# Python
+	
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+
+# PyInstaller / Inno Setup outputs
+dist/
+installer-test/
+*.spec.bak
+
+# Bundled ffmpeg binaries (download with setup_ffmpeg.ps1)
+tools/ffmpeg/bin/
+!tools/ffmpeg/bin/.gitkeep
+.cache/
+
+# Local history and logs
+history.json
+config.json
+*.log
+*.tmp
+
+# IDE and Windows files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini

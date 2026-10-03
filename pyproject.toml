@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bilibili-audio-downloader"
+version = "0.2.0"
+description = "Windows desktop tool for downloading Bilibili video audio."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Xuan Ling", email = "guodongy925@gmail.com" },
+]
+dependencies = [
+    "yt-dlp[default]>=2026.8.19",
+]
+classifiers = [
+    "Environment :: Win32 (MS Windows)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+
+[project.optional-dependencies]
+build = [
+    "pillow>=12.3.0",
+    "pyinstaller>=6.22.3",
+]
+
+[project.scripts]
+bilibili-audio = "bilibili_audio.gui:run"
+
+[tool.setuptools.packages.find]
+include = ["bilibili_audio*"]

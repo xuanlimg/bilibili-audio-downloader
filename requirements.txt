@@ -1,0 +1,2 @@
+# GUI 使用 Python 自带的 tkinter，不需要额外安装界面库。
+yt-dlp[default]>=2026.8.19

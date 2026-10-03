@@ -1,0 +1,8 @@
+@echo off
+cd /d "%~dp0"
+if not exist ".venv\Scripts\pythonw.exe" (
+    echo ??????????????????.bat??
+    pause
+    exit /b 1
+)
+start "" ".venv\Scripts\pythonw.exe" "bilibili_audio_app.py"
